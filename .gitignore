@@ -1,0 +1,11 @@
+# Fichiers temporaires
+*.tmp
+*.log
+*.swp
+
+# Script de création (n'est plus nécessaire après le setup)
+create-missing.ps1
+
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
