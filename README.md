@@ -52,6 +52,29 @@ Il vous suffit d’un compte sur une IA avec fonctionnalité « Projet » (Claud
 
 ---
 
+### 📂 Arborescence complète
+
+```text
+📂 custom-ai-assistant-framework/
+├── 📄 README.md
+├── 📄 LICENSE
+├── 📄 .gitignore
+├── 📁 docs/
+│   ├── 📄 architecture.md
+│   ├── 📄 glossaire.md
+│   └── 📄 guide-de-demarrage.md
+├── 📁 examples/
+│   └── 📄 email-prospection-exemple.txt
+└── 📁 templates/
+    ├── 📄 Changelog.md
+    ├── 📄 Golden_Dataset.md
+    ├── 📄 Meta-Prompt_Nettoyage.md
+    ├── 📄 Prompt_Master.md
+    └── 📄 Quarantaine.md
+```
+
+---
+
 ## 🚀 Comment démarrer (en 5 étapes)
 
 ### 1. Créez un compte sur une IA avec fonction « Projet »
