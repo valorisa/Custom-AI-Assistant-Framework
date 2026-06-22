@@ -1,5 +1,18 @@
 # Custom AI Assistant Framework 🧠
 
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Repo stars](https://img.shields.io/github/stars/valorisa/Custom-AI-Assistant-Framework?style=social)](https://github.com/valorisa/Custom-AI-Assistant-Framework/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/valorisa/Custom-AI-Assistant-Framework?style=social)](https://github.com/valorisa/Custom-AI-Assistant-Framework/forks)
+[![GitHub issues](https://img.shields.io/github/issues/valorisa/Custom-AI-Assistant-Framework)](https://github.com/valorisa/Custom-AI-Assistant-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/valorisa/Custom-AI-Assistant-Framework)](https://github.com/valorisa/Custom-AI-Assistant-Framework/pulls)
+[![Static Badge](https://img.shields.io/badge/Type-Framework-blue)](https://github.com/valorisa/Custom-AI-Assistant-Framework)
+[![Static Badge](https://img.shields.io/badge/Version-1.0-brightgreen)](https://github.com/valorisa/Custom-AI-Assistant-Framework)
+[![Made with](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://daringfireball.net/projects/markdown/)
+
+</div>
+
 **Un cadre structuré pour configurer un assistant IA qui parle comme vous – sans bullshit, sans temps de chauffe, sans dérive.**
 
 ---
