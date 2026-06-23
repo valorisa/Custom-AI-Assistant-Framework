@@ -74,13 +74,13 @@ NON
 Une fois par mois (ou quand le fichier atteint ~10 entrées) :
 
 1. **Ouvre** une nouvelle conversation avec l’IA.
-2. **Fournis‑lui** :
+2. **Fournis‑lui** les fichiers suivants :
    - Ton `Prompt_Master.md` actuel,
    - Tes `Exemples.md`,
    - Le fichier `Quarantaine.md` rempli.
 3. **Colle ce prompt de calibration** :
 
-> *"Analyse ces [nombre] échecs. Identifie les patterns de dérive. Propose‑moi exactement 3 modifications à apporter à ma configuration (ex: ajouter un Anti‑pattern dans l’Étape 5, remplacer un Exemple devenu obsolète, ou nuancer un Principe Directeur). Ne modifie rien toi‑même, soumets‑moi les recommandations."*
+   > *"Analyse ces [nombre] échecs. Identifie les patterns de dérive. Propose‑moi exactement 3 modifications à apporter à ma configuration (ex: ajouter un Anti‑pattern dans l’Étape 5, remplacer un Exemple devenu obsolète, ou nuancer un Principe Directeur). Ne modifie rien toi‑même, soumets‑moi les recommandations."*
 
 4. **Applique** les recommandations en les notant dans `Changelog.md`.
 5. **Vide** ce fichier (ou archive‑le) pour repartir sur une base propre.
@@ -88,6 +88,3 @@ Une fois par mois (ou quand le fichier atteint ~10 entrées) :
 ---
 
 **Ce fichier est ton filet de sécurité. Il transforme les erreurs en données d’amélioration.**
-
-
-Tu peux copier‑coller ce contenu dans le fichier `templates/Quarantaine.md` de ton dépôt local. Si tu veux que je t’envoie un autre fichier, dis‑le‑moi.
