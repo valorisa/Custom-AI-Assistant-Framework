@@ -100,7 +100,7 @@ thirty of your own texts.
     ├── 📄 Meta-Prompt_Nettoyage.md
     ├── 📄 Prompt_Master.md
     └── 📄 Quarantaine.md
-```text
+```
 
 ---
 
