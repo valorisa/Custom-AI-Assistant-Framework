@@ -11,6 +11,7 @@ on:
       - master
     paths:
       - '**.md'
+  workflow_dispatch:   # 👈 Permet un déclenchement manuel depuis l'interface GitHub
 
 jobs:
   markdownlint:
