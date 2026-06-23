@@ -1,73 +1,77 @@
 # Custom AI Assistant Framework 🧠
 
-<div align="center">
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Repo stars](https://img.shields.io/github/stars/valorisa/Custom-AI-Assistant-Framework?style=social)](https://github.com/valorisa/Custom-AI-Assistant-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/valorisa/Custom-AI-Assistant-Framework?style=social)](https://github.com/valorisa/Custom-AI-Assistant-Framework/forks)
-[![GitHub issues](https://img.shields.io/github/issues/valorisa/Custom-AI-Assistant-Framework)](https://github.com/valorisa/Custom-AI-Assistant-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/valorisa/Custom-AI-Assistant-Framework)](https://github.com/valorisa/Custom-AI-Assistant-Framework/pulls)
-[![Static Badge](https://img.shields.io/badge/Type-Framework-blue)](https://github.com/valorisa/Custom-AI-Assistant-Framework)
-[![Static Badge](https://img.shields.io/badge/Version-1.0-brightgreen)](https://github.com/valorisa/Custom-AI-Assistant-Framework)
-[![Made with](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://daringfireball.net/projects/markdown/)
+[![Version 1.0](https://img.shields.io/badge/Version-1.0-brightgreen)](https://github.com/valorisa/Custom-AI-Assistant-Framework)
+[![Type: Framework](https://img.shields.io/badge/Type-Framework-blue)](https://github.com/valorisa/Custom-AI-Assistant-Framework)
+[![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://daringfireball.net/projects/markdown/)
 
-</div>
-
-**Un cadre structuré pour configurer un assistant IA qui parle comme vous – sans bullshit, sans temps de chauffe, sans dérive.**
+**A structured framework to configure an AI assistant that speaks like you — no fluff, no warm-up time, no drift.**
 
 ---
 
-## 📖 Pourquoi ce framework ?
+## 📖 Why this framework?
 
-Vous utilisez ChatGPT, Claude ou un autre LLM pour rédiger vos emails, vos posts ou vos propositions.  
-Mais à chaque fois, vous perdez un temps précieux à :
+You're already using ChatGPT, Claude, or another AI to write your emails, posts, or proposals.
+But every single time, you waste precious minutes:
 
-- réexpliquer votre métier et votre cible,
-- corriger le ton trop générique ou trop corporate,
-- supprimer les formules creuses du style *"Dans un monde en constante évolution…"*.
+- Re-explaining your job, your clients, your industry,
+- Fixing a tone that's too generic or too corporate,
+- Deleting hollow filler phrases like *"In today's fast-paced world…"*
 
-Ce framework est la réponse.
+This framework is the answer.
 
-Il vous offre une **méthode clé en main** pour :
+> 💡 **What is an AI assistant, for beginners?**
+> An AI assistant (like ChatGPT or Claude) is a software tool you can write to in plain language. You ask it a question or give it a task, and it generates a text response. Think of it as a very fast, very well-read writing partner — but one with no memory of you, no knowledge of your style, and a tendency to sound corporate by default. This framework fixes that.
 
-1. **Configurer une IA** qui imite votre voix (ton, vocabulaire, rythme, valeurs),
-2. **Éliminer le prompting répétitif** (plus besoin de tout réexpliquer à chaque conversation),
-3. **Maintenir la qualité dans le temps** (sans que l’IA dérive vers un ton générique),
-4. **Corriger les erreurs** en quelques minutes par mois.
+It gives you a **ready-to-use method** to:
 
-Le résultat : un **assistant numérique** qui produit des textes prêts à l’envoi (ou avec une retouche de moins de 2 minutes), 100 % dans votre style.
+1. **Configure an AI** that mimics your voice (tone, vocabulary, rhythm, values),
+2. **Eliminate repetitive prompting** (no more re-explaining everything at the start of each conversation),
+3. **Maintain quality over time** (preventing the AI from drifting toward generic language),
+4. **Fix mistakes** in a few minutes per month.
 
----
-
-## 🎯 À qui s’adresse ce framework ?
-
-- **Freelances, consultants, experts** dont la « voix » est la marque de fabrique,
-- **Dirigeants d’entreprise** qui veulent déléguer leur communication sans perdre leur identité,
-- **Commerciaux, responsables marketing** qui rédigent quotidiennement des contenus,
-- **Toute personne** qui utilise une IA et en a marre des réponses génériques.
-
-**Aucune compétence technique n’est requise.**  
-Il vous suffit d’un compte sur une IA avec fonctionnalité « Projet » (Claude Pro ou ChatGPT Plus) et d’une trentaine de vos propres textes.
+The result: a **digital assistant** that produces texts ready to send (or needing less than 2 minutes of touch-up), 100% in your style.
 
 ---
 
-## 🧭 Ce que vous trouverez dans ce dépôt
+## 🎯 Who is this framework for?
 
-| Fichier / Dossier | Contenu |
-| :--- | :--- |
-| `templates/Prompt_Master.md` | La **Constitution** : les règles de votre assistant (style, ton, interdictions) |
-| `templates/Meta-Prompt_Nettoyage.md` | La recette pour trier vos textes et en extraire les 7 meilleurs exemples |
-| `templates/Golden_Dataset.md` | Les **5 tests de régression** pour vérifier chaque mois que l’IA ne dérive pas |
-| `templates/Quarantaine.md` | Le fichier pour noter les erreurs de l’IA au quotidien (friction zéro) |
-| `templates/Changelog.md` | Le journal des modifications (pour garder une trace de vos évolutions) |
-| `docs/` | Des guides complémentaires (glossaire, démarrage, architecture) |
-| `examples/` | Des exemples concrets d’emails et de posts |
+- **Freelancers, consultants, experts** whose "voice" is their brand,
+- **Business owners** who want to delegate communication without losing their identity,
+- **Sales reps, marketing managers** who write content daily,
+- **Anyone** who uses AI and is tired of generic, robotic responses.
+
+**No technical skills required.**
+All you need is an account on an AI platform that supports the "Project" feature (Claude Pro or ChatGPT Plus), and about thirty of your own texts.
+
+> 💡 **What is a "Project" feature?**
+> Some AI platforms let you create a dedicated workspace called a "Project" (or similar). Inside this workspace, you can set permanent instructions that the AI will follow for every conversation — without you having to repeat them each time. Think of it as a "briefing sheet" permanently attached to your AI's memory. Claude Pro calls this "Projects"; ChatGPT Plus calls it "Custom Instructions" or "Projects" depending on the version.
 
 ---
 
-### 📂 Arborescence complète
+## 🧭 What you'll find in this repository
 
-```text
+> 💡 **What is a repository?**
+> A repository (often called a "repo") is a folder hosted on GitHub that contains all the files for a project. GitHub is a website where developers (and increasingly non-developers) store, share, and collaborate on files. Think of it as a Google Drive, but built for code and text files, with version history included.
+
+| File / Folder                        | What it contains                                                                            |
+| ------------------------------------ | ------------------------------------------------------------------------------------------- |
+| `templates/Prompt_Master.md`         | The **Constitution**: the rules that govern your assistant (style, tone, forbidden phrases) |
+| `templates/Meta-Prompt_Nettoyage.md` | The recipe to sort your texts and extract the 7 best examples                              |
+| `templates/Golden_Dataset.md`        | The **5 regression tests** to verify every month that the AI hasn't drifted                |
+| `templates/Quarantaine.md`           | The file to log the AI's daily mistakes (zero friction)                                     |
+| `templates/Changelog.md`             | The change log (to keep track of your configuration updates)                                |
+| `docs/`                              | Complementary guides (glossary, quick start, architecture)                                  |
+| `examples/`                          | Concrete examples of emails and posts                                                       |
+
+> 💡 **What are `.md` files?**
+> Files ending in `.md` are Markdown files — plain text files with light formatting (headings, bold, bullet points). You can open them with any text editor (Notepad, VS Code, etc.) or read them directly on GitHub, where they render beautifully. No special software is required.
+
+---
+
+### 📂 Full folder structure
+
+```
 📂 custom-ai-assistant-framework/
 ├── 📄 README.md
 ├── 📄 LICENSE
@@ -88,94 +92,146 @@ Il vous suffit d’un compte sur une IA avec fonctionnalité « Projet » (Claud
 
 ---
 
-## 🚀 Comment démarrer (en 5 étapes)
+## 🚀 How to get started (5 steps)
 
-### 1. Créez un compte sur une IA avec fonction « Projet »
+### 1. Create an account on an AI platform with a "Project" feature
 
-- **Recommandé** : [Claude Pro](https://claude.ai) (interface « Projects » la plus aboutie).
-- **Alternative** : ChatGPT Plus (fonction « Projets » ou « Custom Instructions »).
+- **Recommended**: [Claude Pro](https://claude.ai) (the most advanced "Projects" interface).
+- **Alternative**: ChatGPT Plus ("Projects" or "Custom Instructions" feature).
 
-### 2. Rassemblez une trentaine de vos meilleurs textes
-
-- Ouvrez votre boîte mail, votre CRM, vos réseaux sociaux.
-- Sélectionnez **30 à 50 textes** que vous avez écrits vous-même (emails, posts, propositions, réponses clients).
-- Ne faites pas de tri fin : prenez ce qui vous semble représentatif de votre voix.
-- Collez-les dans un fichier texte (un bloc par texte, numérotés ou séparés par des lignes).
-
-### 3. Utilisez le « Méta-Prompt de Nettoyage » pour extraire les 7 pépites
-
-- Ouvrez `templates/Meta-Prompt_Nettoyage.md`.
-- Copiez son contenu.
-- Dans l’IA, créez une nouvelle conversation, **collez ce prompt**, puis **attachez votre fichier de 30-50 textes**.
-- L’IA va sélectionner les 7 textes les plus représentatifs de votre voix, et générer pour chacun une **Fiche d’Identité Stylistique** (ADN + Anti-pattern).
-- Sauvegardez le résultat dans un fichier `Exemples.md`. **C’est votre Jurisprudence.**
-
-### 4. Personnalisez votre « Constitution » (le Prompt Master)
-
-- Ouvrez `templates/Prompt_Master.md`.
-- Remplacez tous les textes entre `[crochets]` par vos propres mots :
-  - Votre métier, votre cible,
-  - Vos 3 piliers de ton (ex: « Franchise radicale », « Empathie pragmatique », « Clarté »),
-  - Vos interdictions (ex: pas de « Je comprends votre frustration », pas de « En conclusion »).
-- Sauvegardez ce fichier personnalisé.
-
-### 5. Créez votre Projet IA et uploadez les fichiers
-
-- Dans l’interface, créez un **Projet** (ou équivalent).
-- Dans les instructions système, **copiez-collez** le contenu de votre `Prompt_Master.md` personnalisé.
-- Dans la base de connaissances, **uploadez** le fichier `Exemples.md`.
-- **C’est fini !** Vous pouvez commencer à poser des questions. L’IA répondra avec votre voix.
+> 💡 Both platforms require a paid subscription (approximately $20/month). Free plans exist but do not include the persistent "Project" feature, which is essential for this framework to work.
 
 ---
 
-## 🧪 Le contrôle technique mensuel (Golden Dataset)
+### 2. Collect about thirty of your best texts
 
-Pour être sûr que votre assistant reste fidèle dans le temps (les IA évoluent silencieusement) :
+- Open your email inbox, CRM, LinkedIn posts, or social media.
+- Select **30 to 50 texts you wrote yourself** (emails, posts, proposals, client replies).
+- Don't over-filter: just pick what feels representative of how you naturally communicate.
+- Paste them all into a single text file, one block per text, separated by blank lines or numbered.
 
-- Ouvrez `templates/Golden_Dataset.md`.
-- Dans votre Projet, créez une conversation nommée `🧪 TEST DE RÉGRESSION`.
-- Exécutez les 5 tests un par un, et vérifiez que les réponses respectent les critères de succès.
-- Si un test échoue, ajustez votre Prompt Master ou vos Exemples (voir le guide `docs/guide-de-demarrage.md`).
-
----
-
-## 🛠️ Que faire si l’IA rate une réponse ?
-
-C’est inévitable de temps en temps.
-
-- **Corrigez le texte manuellement** pour l’envoyer (standard professionnel oblige).
-- **Copiez-collez** le prompt et la réponse ratée dans le fichier `Quarantaine.md` (en local).
-- À la fin du mois, faites une **session « Médecin »** : donnez à l’IA votre fichier `Quarantaine.md` et demandez-lui d’identifier les 3 modifications à apporter à votre configuration.
-- Notez ces modifications dans `Changelog.md` et ajustez vos fichiers.
+> 💡 **Why 30 texts?**
+> The AI needs enough examples to identify the patterns in *your* writing — your sentence length, your preferred transitions, your vocabulary, your level of formality. Ten texts is too few; a hundred is overkill. Thirty is the practical sweet spot that gives the AI enough material to work with without overwhelming it.
 
 ---
 
-## 📚 Pour aller plus loin
+### 3. Use the "Cleaning Meta-Prompt" to extract the 7 gems
 
-- `docs/glossaire.md` – Le vocabulaire technique expliqué simplement.
-- `docs/guide-de-demarrage.md` – Un pas-à-pas encore plus détaillé.
-- `docs/architecture.md` – Comment le système fonctionne en interne.
+- Open `templates/Meta-Prompt_Nettoyage.md`.
+- Copy its entire content.
+- In the AI, start a new conversation, **paste this prompt**, then **attach your file of 30–50 texts**.
+- The AI will select the 7 texts most representative of your voice, and for each one generate a **Stylistic Identity Card** (DNA + Anti-patterns).
+- Save the result in a file called `Exemples.md`. **This is your Case Law.**
+
+> 💡 **What is a "prompt"?**
+> A prompt is simply the instruction or question you give to an AI. It can be one sentence ("Write me a sales email") or a very detailed document (like the templates in this framework). The more precise and structured the prompt, the more predictable and useful the AI's response.
+
+> 💡 **What is a "Stylistic Identity Card"?**
+> When the AI analyzes your texts, it produces a short profile of each one: what makes it sound like *you* (your "DNA" — recurring phrases, rhythm, tone) and what to avoid ("Anti-patterns" — things that would signal the text was written by someone else or by a generic AI). Think of it as a writing fingerprint.
+
+> 💡 **What is "Case Law"?**
+> This metaphor borrows from law: just as judges refer to past rulings to ensure consistency, your AI will refer to your best example texts to ensure all future outputs stay consistent with your voice. Your `Exemples.md` file acts as the precedents.
+
+> 💡 **How do you "attach a file" to an AI?**
+> Most AI platforms with a "Project" or chat interface have a paperclip icon or an "Upload" button that lets you attach a file to your message. The AI will read its contents and use them as context for its response.
 
 ---
 
-## ⚠️ Conditions d’utilisation
+### 4. Customize your "Constitution" (the Master Prompt)
 
-Ce dépôt est sous licence MIT (voir `LICENSE`).  
-Vous êtes libre de l’utiliser, le modifier, le redistribuer.  
-**Vous l’utilisez à vos risques et périls** : ce système est un assistant, pas un substitut à votre jugement professionnel. Relisez toujours les textes avant envoi.
+- Open `templates/Prompt_Master.md`.
+- Replace all the text between `[brackets]` with your own words:
+  - Your profession, your target audience,
+  - Your 3 tone pillars (e.g., "Radical candor", "Pragmatic empathy", "Clarity"),
+  - Your forbidden phrases (e.g., no "I understand your frustration", no "In conclusion").
+- Save this personalized file.
+
+> 💡 **Why call it a "Constitution"?**
+> Just like a country's constitution is the supreme document that all laws must respect, your `Prompt_Master.md` is the supreme document that governs everything your AI says. Every response it generates will be filtered through these rules. It's the single most important file in the whole framework.
 
 ---
 
-## 🙏 Remerciements
+### 5. Create your AI Project and upload the files
 
-Ce framework est le fruit d’un stress-test rigoureux, conçu pour être **pragmatique, robuste, et sans bullshit**.
+- In the AI interface, create a **Project** (or equivalent).
+- In the system instructions field, **copy and paste** the content of your personalized `Prompt_Master.md`.
+- In the knowledge base, **upload** your `Exemples.md` file.
+- **You're done!** Start asking questions. The AI will respond in your voice.
+
+> 💡 **What are "system instructions"?**
+> System instructions are a special field in a Project where you write instructions that the AI silently applies to every single conversation within that project — without you having to repeat them. It's the invisible briefing that runs in the background at all times. This is fundamentally different from typing instructions in a normal chat message.
+
+> 💡 **What is a "knowledge base"?**
+> In Claude's Projects interface, the knowledge base is a document storage area where you upload reference files. The AI can access these files during any conversation in the project, as if they were always open on its desk. This is where you put your `Exemples.md` so the AI always has your writing samples at hand.
+
+---
+
+## 🧪 The monthly technical check (Golden Dataset)
+
+To make sure your assistant stays faithful over time — AI platforms update silently, and behaviors can shift:
+
+- Open `templates/Golden_Dataset.md`.
+- In your Project, start a conversation named `🧪 REGRESSION TEST`.
+- Run the 5 tests one by one, and check that the responses meet the success criteria.
+- If a test fails, adjust your Master Prompt or your Examples (see `docs/guide-de-demarrage.md`).
+
+> 💡 **What is a "regression test"?**
+> In software development, a regression test checks that something which used to work still works after a change. Here, the idea is the same: once a month, you run 5 specific writing scenarios through your AI to verify it still sounds like you. If it starts sounding generic or corporate again, you know the configuration needs a tune-up.
+
+> 💡 **What does "AI drift" mean?**
+> AI platforms are updated regularly by their developers. These updates can subtly change how the AI interprets instructions, which may cause it to gradually sound less like you and more generic. "Drift" is this slow, silent deviation from your intended voice. The monthly test is your early-warning system.
+
+---
+
+## 🛠️ What to do when the AI gets a response wrong
+
+It will happen occasionally. Here's what to do:
+
+- **Correct the text manually** before sending it (professional standards apply).
+- **Copy-paste** the failed prompt and response into `Quarantaine.md` (on your local computer).
+- At the end of the month, run a **"Doctor session"**: give the AI your `Quarantaine.md` file and ask it to identify the 3 changes to make to your configuration.
+- Log those changes in `Changelog.md` and update your files accordingly.
+
+> 💡 **What is a "Quarantine" file?**
+> It's a simple running log where you paste examples of the AI's mistakes — like a notepad for bugs. Zero friction: no formatting required, just copy-paste. At the end of the month, this raw collection of failures becomes the input for a structured improvement session. The AI itself helps you diagnose what went wrong and how to fix it.
+
+> 💡 **What is a "Changelog"?**
+> A changelog is a running record of every change made to a configuration or software, with dates and descriptions. It lets you roll back if a change made things worse, and helps you remember what you tried. Think of it as a diary for your AI setup.
+
+---
+
+## 📚 Going further
+
+- `docs/glossaire.md` — Technical vocabulary explained in plain language.
+- `docs/guide-de-demarrage.md` — An even more detailed step-by-step guide.
+- `docs/architecture.md` — How the system works internally.
+
+---
+
+## ⚠️ Terms of use
+
+This repository is licensed under the MIT License (see `LICENSE`).
+You are free to use it, modify it, and redistribute it.
+**Use it at your own risk**: this system is an assistant, not a substitute for your professional judgment. Always read texts before sending them.
+
+> 💡 **What is an MIT license?**
+> The MIT license is one of the most permissive open-source licenses. It essentially means: "Do whatever you want with this — use it, modify it, sell it — just keep the original copyright notice." It imposes almost no restrictions on the user.
+
+---
+
+## 🙏 Acknowledgments
+
+This framework is the result of rigorous stress-testing, designed to be **pragmatic, robust, and bullshit-free**.
 
 ---
 
 ## 📬 Contact
 
-Si vous avez des questions, des suggestions, ou si vous souhaitez adapter ce framework à un métier spécifique, n’hésitez pas à ouvrir une **issue** sur ce dépôt ou à contacter l’auteur via GitHub ([@valorisa](https://github.com/valorisa)).
+If you have questions, suggestions, or want to adapt this framework to a specific industry, feel free to open an **issue** on this repository or contact the author via GitHub ([@valorisa](https://github.com/valorisa)).
+
+> 💡 **What is an "issue" on GitHub?**
+> An issue is a comment thread attached to a repository. It's the standard way to report a bug, ask a question, or suggest a feature. You need a (free) GitHub account to open one. Think of it as a public forum attached directly to the project.
 
 ---
 
-**Bonne configuration !** 🚀
+**Happy configuring!** 🚀
